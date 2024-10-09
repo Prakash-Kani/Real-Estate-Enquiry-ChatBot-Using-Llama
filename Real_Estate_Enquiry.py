@@ -192,7 +192,7 @@ def get_session_history(session_id: str) -> BaseChatMessageHistory:
         store[session_id] = ChatMessageHistory()
     return store[session_id]
 
-def Mock_Interview_Chain(filename):
+def Enquiry_Chain(filename):
 
     db = Chroma(persist_directory= filename, embedding_function=embeddings)
 
