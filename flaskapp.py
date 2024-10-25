@@ -11,8 +11,8 @@ from new import result_chain
 from datetime import datetime as dt
 import os
 
-api_key = "AIzaSyA_RYbstsfCma9MUYodsGwMXj1OJSjBwaM"
-cse_id = "41db87101f71943bd"
+# api_key = "Enter your api key here"
+# cse_id = "Enter your CSE id here"
 app = Flask(__name__)
 
 
